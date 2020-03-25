@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const slackClient = require('./slack/index');
+const database = require('./database/index');
 
 var app = express();
 
